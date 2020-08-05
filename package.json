@@ -1,11 +1,16 @@
 {
   "name": "fw-bootstrap-boilerplate",
-  "version": "1.0.0",
-  "description": "Basic Bootstrap Boilerplate",
+  "version": "1.0.1",
+  "description": "Basic Bootstrap boilerplate for quick start development",
   "author": "Fresh Wave Creative <mail@freshwavecreative.com>",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+      "bootstrap", "html", "css", "sass", "gulp", "js", "jquery"
+  ],
   "repository": {
-    "type": "git",
-    "url": "git://github.com/freshwavecreative/bootstrap-boilerplate.git"
+      "url": "git@github.com:freshwavecreative/fw-bootstrap-boilerplate.git"
   },
   "license": "ISC",
   "dependencies": {
