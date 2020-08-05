@@ -1,0 +1,37 @@
+
+$white:             #fff;
+$primary:           #28a7dc;
+
+$heading-color:     #47536b;
+$text-color:        #6b7b9c;
+$dark-text-color:   #1a202c;
+
+$bg:                $white;
+
+$body-bg:           $bg;
+$body-color:        $text-color;
+$font-size-base:    1rem;
+
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-headings: $font-family-sans-serif;
+$font-family-body: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+@mixin transition($args: 'all 200ms ease') {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: $heading-color;
+}

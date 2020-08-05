@@ -1,0 +1,33 @@
+{
+  "name": "fw-bootstrap-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic Bootstrap Boilerplate",
+  "author": "Fresh Wave Creative <mail@freshwavecreative.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freshwavecreative/bootstrap-boilerplate.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-deporder": "^1.2.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-include": "^2.4.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
